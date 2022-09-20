@@ -10,7 +10,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Website đang trong thời gian bảo trì, vui lòng quay lại sau!" />
+        <Header title={`Website đang trong thời gian bảo trì`} />
+        <Header title={`Vui lòng quay lại sau!`} />
         <p className="description">
           Liên hệ: VIET TIEP MEDIA <b>0944880202</b>
         </p>
